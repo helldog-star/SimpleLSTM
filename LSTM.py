@@ -88,7 +88,3 @@ y_data = tf.random.uniform((batch_size*1000,) , maxval=2, dtype=tf.int32)
 
 model.fit(x_data, y_data, batch_size=4)
 
-#model.fit(x_data, y_data, batch_size=4)
-
-#model.fit(x_data, y_data, batch_size=4)
-
